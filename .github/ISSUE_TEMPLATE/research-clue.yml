@@ -1,0 +1,74 @@
+name: Research clue
+description: Share a practitioner insight, market anomaly, paper, post, podcast quote or mechanism worth testing.
+title: "[CLUE] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. A clue does not need to be a complete strategy. We are looking for mechanisms that can be falsified with data.
+
+  - type: input
+    id: source
+    attributes:
+      label: Public source
+      description: Link to the original public source when available.
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: textarea
+    id: observation
+    attributes:
+      label: What is the clue?
+      description: Summarize the observation in your own words. Keep quotes short.
+    validations:
+      required: true
+
+  - type: textarea
+    id: mechanism
+    attributes:
+      label: Proposed economic mechanism
+      description: Who pays for the edge and why might the behavior persist?
+    validations:
+      required: true
+
+  - type: textarea
+    id: capacity
+    attributes:
+      label: Why might this remain interesting at small capital?
+      description: Describe any measurable capacity, liquidity, latency, venue or operational constraint that could make the opportunity unattractive to very large capital.
+    validations:
+      required: false
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Data that could test it
+      description: What exact public data and timestamp semantics are required?
+    validations:
+      required: false
+
+  - type: textarea
+    id: kill
+    attributes:
+      label: Fast kill condition
+      description: What result would make you reject this hypothesis quickly?
+    validations:
+      required: false
+
+  - type: textarea
+    id: economics
+    attributes:
+      label: Economic upper bound
+      description: If the mechanism is real, why might the return be large enough after costs on total deployed capital?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Publication check
+      options:
+        - label: I am not posting API keys, private credentials, leaked/private research, private community logs or instructions to exploit users.
+          required: true
