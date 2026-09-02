@@ -94,11 +94,21 @@ Before proposing a strategy, please read [`CONTRIBUTING.md`](CONTRIBUTING.md). G
 
 EDGE LAB is independently funded. Donations help cover data access, compute, API usage, reproducibility work and research tooling.
 
-**PayPal:** `Andynghiem@gmail.com`
+**PayPal:** `huyai386145@gmail.com`
 
 Donations are support for independent research only. They are **not** investments, do not represent equity or profit sharing, and do not create any entitlement to trading returns.
 
 More details: [`SUPPORT.md`](SUPPORT.md).
+
+## Licensing
+
+This repository uses a split license so research can be shared openly without making third-party material ambiguous:
+
+- **Source code:** MIT License — see [`LICENSE-CODE`](LICENSE-CODE).
+- **Original research, documentation and written case-study material:** Creative Commons Attribution 4.0 International (**CC BY 4.0**) — see [`LICENSE-DOCS`](LICENSE-DOCS).
+- **Third-party data, trademarks, quoted material and linked sources:** remain subject to their respective owners' terms and are not relicensed by this repository.
+
+The top-level [`LICENSE`](LICENSE) file summarizes which license applies to which material.
 
 ## Repository map
 
@@ -109,6 +119,9 @@ edge-lab-research/
 ├── CONTRIBUTING.md
 ├── DISCLAIMER.md
 ├── SUPPORT.md
+├── LICENSE
+├── LICENSE-CODE
+├── LICENSE-DOCS
 └── case-studies/
     └── 0030-wbeth-staking-carry/
         ├── README.md
