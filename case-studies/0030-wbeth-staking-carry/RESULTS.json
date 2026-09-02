@@ -1,0 +1,71 @@
+{
+  "history": {
+    "windows": 968,
+    "min": "2023-10-11 00:00:00+00:00",
+    "max": "2026-09-02 04:00:00+00:00",
+    "median_net35": 0.017566830377801667,
+    "share_net35_positive": 0.9731404958677686,
+    "share_net50_positive": 0.9545454545454546,
+    "share_net75_positive": 0.8863636363636364,
+    "median_net50": 0.016066830377801666,
+    "bootstrap_ci_mean_net35": [
+      0.01901304903732624,
+      0.034663366945411965
+    ],
+    "halves_median_net35": [
+      0.0356680214276614,
+      0.009879491965185828
+    ],
+    "quarters": [
+      {"quarter":"2023Q4","median":0.05971948800174966,"sum":5.29438386514254,"count":82},
+      {"quarter":"2024Q1","median":0.07504443108859518,"sum":6.101358680206036,"count":91},
+      {"quarter":"2024Q2","median":0.026756402004369184,"sum":2.1406695089120693,"count":91},
+      {"quarter":"2024Q3","median":0.02260741072929024,"sum":2.514940039894334,"count":92},
+      {"quarter":"2024Q4","median":0.03574592048209356,"sum":3.2076340019408414,"count":92},
+      {"quarter":"2025Q1","median":0.009073498732320485,"sum":0.9890468157241818,"count":90},
+      {"quarter":"2025Q2","median":0.028877076534912147,"sum":2.619829979561297,"count":91},
+      {"quarter":"2025Q3","median":0.011301709730275552,"sum":1.2748364177956342,"count":92},
+      {"quarter":"2025Q4","median":0.008379795514431273,"sum":0.7846396068089259,"count":92},
+      {"quarter":"2026Q1","median":0.0017279585904834286,"sum":0.12955888746712374,"count":90},
+      {"quarter":"2026Q2","median":0.00732743441189203,"sum":0.4760839610768153,"count":65}
+    ],
+    "years": [
+      {"year":2023,"median":0.05971948800174966,"count":82},
+      {"year":2024,"median":0.031323424243203196,"count":366},
+      {"year":2025,"median":0.011866797901430796,"count":365},
+      {"year":2026,"median":0.003388251518906022,"count":155}
+    ],
+    "max_quarter_positive_contribution": 0.2384848364853271
+  },
+  "basis": {
+    "direct_ratio_min": 0.9508,
+    "direct_ratio_max": 1.1055,
+    "synthetic_discrepancy_min": -0.006166477180105434,
+    "synthetic_discrepancy_max": 0.04877994292065302,
+    "synthetic_discrepancy_p95_abs": 0.0014386921951832646
+  },
+  "fresh": {
+    "entry": "2026-08-01 00:00:00+00:00",
+    "exit": "2026-09-02 00:00:00+00:00",
+    "spot": 0.3008107515886347,
+    "perp": -0.2982087000406413,
+    "funding": 0.005835599859821923,
+    "gross": 0.00843765140781529,
+    "max_adverse_mtm": -0.0029128944908179966
+  },
+  "gates": {
+    "history_ge_30_months": true,
+    "median_net35_positive": true,
+    "share_net35_ge_70": true,
+    "median_net50_positive": true,
+    "bootstrap_lower_positive": true,
+    "quarters_ge_75pct": true,
+    "years_all_but_one": true,
+    "halves_both_positive": true,
+    "fresh_gross_positive": true,
+    "quarter_concentration_le_35pct": true,
+    "mechanism_and_holdout": true
+  },
+  "classification": "WBETH_STAKING_CARRY_CANDIDATE",
+  "holdout_unseals": 0
+}
