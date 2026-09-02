@@ -1,0 +1,18 @@
+{
+  "endpoints": [
+    "spot /api/v3/klines 1h",
+    "perp /fapi/v1/markPriceKlines 1h",
+    "perp /fapi/v1/fundingRate"
+  ],
+  "rows": {
+    "wb": 25373,
+    "ratio": 25373,
+    "eth": 25373,
+    "funding": 3172,
+    "eth_spot": 25374
+  },
+  "bytes": 16937904,
+  "common_min": "2023-10-11 00:00:00+00:00",
+  "common_max": "2026-09-02 04:00:00+00:00",
+  "holdout_unseals": 0
+}
