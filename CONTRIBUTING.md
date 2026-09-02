@@ -59,6 +59,17 @@ For research-code PRs:
 - separate diagnostics from pass/fail criteria;
 - state whether the change can alter an already-published result.
 
+## Contribution licensing
+
+By submitting a contribution to this repository, you agree that the contribution may be distributed under the license that applies to the material you are changing:
+
+- source-code contributions under the **MIT License**;
+- original research, documentation and written case-study contributions under **CC BY 4.0**.
+
+You retain copyright in your own contribution. Do not submit material that you do not have permission to license on those terms. Third-party data and quotations remain subject to their original licenses or terms.
+
+See [`LICENSE`](LICENSE), [`LICENSE-CODE`](LICENSE-CODE) and [`LICENSE-DOCS`](LICENSE-DOCS).
+
 ## Publication ethics
 
 Do not paste private communities, paid research, leaked material or copyrighted content into this repository. Link to the original public source and summarize the relevant mechanism in your own words.
