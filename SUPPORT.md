@@ -4,7 +4,7 @@ EDGE LAB is independently funded. Research expenses can include market-data acce
 
 If you find the project useful and want to help cover those costs, you can donate via PayPal:
 
-**PayPal email:** `Andynghiem@gmail.com`
+**PayPal email:** `huyai386145@gmail.com`
 
 ## What support means
 
@@ -35,4 +35,4 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## GitHub Sponsor button
 
-A native GitHub Sponsor button can be added once a stable public donation URL (for example a PayPal.Me or PayPal donation URL) is available. We intentionally do not invent a payment URL from the email address.
+The native GitHub Sponsor button is intentionally not enabled at this stage. Direct PayPal support is sufficient for now; sponsorship UI can be added later if the public project gains traction.
