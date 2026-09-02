@@ -1,0 +1,55 @@
+name: Replication or research bug
+description: Report a reproducibility problem, lookahead path, cost omission, timestamp error or unsupported result.
+title: "[REPLICATION] "
+labels: []
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Result or file
+      placeholder: case-studies/0030-wbeth-staking-carry/RESULTS.json
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What appears incorrect or irreproducible?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: false
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction or evidence
+      description: Include commands, calculations or public data references when possible. Do not include credentials.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Could this change the published research verdict?
+      options:
+        - Unknown
+        - Probably no
+        - Possibly
+        - Probably yes
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I have removed API keys, account data, private URLs and other secrets.
+          required: true
